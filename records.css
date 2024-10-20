@@ -1,0 +1,250 @@
+
+/* --------------------------------------------------------- */
+.titulo-boton,
+h1 {
+    color: rgba(0, 0, 0, 0.405);
+    font-size: 1.5em;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.targeta-menu {
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: rgba(1, 220, 228, 0);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.329);
+    color: #00000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 810px;
+    right: 22px;
+    margin: auto;
+    border-radius: 1px solid gray;
+    z-index: 999;
+
+}
+
+.targeta-menu:hover {
+    color: rgba(0, 0, 0, 0);
+    background: #3f3f3f83;
+    color: #fff;
+}
+
+h1:hover {
+    color: white;
+}
+
+/* --------------------------------------------------------- */
+
+body{
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: black;
+}
+
+.logo {
+    width: 10%;
+}
+
+#logo-header {
+    width: 80px;
+}
+
+.nav-header {
+    width: 70%;
+    margin: auto;
+
+}
+
+.menu {
+    width: 30%;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: grey;
+    padding: 10px;
+    margin: auto;
+}
+
+#menu-contactenos {
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+/* menu de colores */
+
+.menu-colores {
+    height: 30%;
+    /* margin-left: auto;*/
+}
+
+.verde {
+    background-image: url(Logo/mundo.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: rgb(41, 196, 41);
+
+}
+
+.naranja {
+    background-image: url(Logo/telefono.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: orange;
+
+}
+
+.rojo {
+    background-image: url(Logo/lupa.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: red;
+
+}
+
+/* Barra azul con texto */
+
+.azul {
+    height: 350px;
+    background-color: #14ade4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 50px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+#imagen-azul {
+    width: 30%;
+    box-shadow: 3px 0 50px -10px rgba(0, 0, 0, .2);
+    border: solid white;
+
+}
+
+.div-text {
+    width: 30%;
+    margin: 50px;
+
+}
+
+#titulo-azul {
+    font-size: 30px;
+    text-indent: 0em;
+}
+
+.texto-azul {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5em;
+    hyphens: auto;
+    text-indent: 2em;
+    font-weight: 300;
+}
+
+.texto-azul::first-letter {
+    font-size: 150%;
+
+}
+
+/* RECORD GUINNESS 1 */
+
+.record1 {
+    width: 100%;
+    margin: 0 30px;
+}
+
+.imgrecord-guinness1 {
+    float: left;
+}
+
+#imgrecord-guinness1 {
+    width: 550px;
+}
+
+.textorecord-guinness1 p h1 {
+    float: left;
+
+}
+
+.textorecord-guinness1 {
+    width: 600px; 
+    text-align: justify;
+    float: left;
+    margin: -10px 0 0 70px;
+}
+
+/* RECORD GUINNESS 1 (preguntas) */
+
+.container1 {
+    width: 96%;
+    margin-top: 30px;
+  
+}
+
+.container1-1 {
+    width: 50%;
+    float: left;
+    margin: 0 0 30px 100px;
+}
+
+.pregunta-joven {
+    width: 200px;
+    float: left;
+    margin: 0 40px 0px 100px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(255, 64, 0);
+}
+
+dt {
+    line-height: 30px;
+    line-height: 1.875em;
+    color: #ff6730;
+   
+}
+
+.container1-2 {
+    width: 50%;
+    float: left;
+    margin: 0 0px 30px 100px;
+}
+
+.pregunta-joven1 {
+    width: 200px;
+    float: left;
+    margin: 0 40px 0 100px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: rgb(255, 64, 0);
+
+}
